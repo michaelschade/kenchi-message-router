@@ -1,0 +1,33 @@
+{
+  "name": "@michaelschade/kenchi-message-router",
+  "description": "Message router between different browser tabs/windows/extensions.",
+  "version": "0.3.7",
+  "repository": "git://github.com/michaelschade/kenchi-message-router.git",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc -p tsconfig.build.json",
+    "test": "jest",
+    "lint": "eslint '**/*.ts'"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@babel/core": "7.17.9",
+    "@babel/preset-env": "7.16.11",
+    "@babel/preset-typescript": "7.16.7",
+    "@jest/reporters": "27.5.1",
+    "@types/chrome": "0.0.184",
+    "@types/jest": "27.5.0",
+    "@typescript-eslint/eslint-plugin": "5.23.0",
+    "@typescript-eslint/parser": "5.23.0",
+    "babel-jest": "27.5.1",
+    "eslint": "8.14.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "jest": "27.5.1",
+    "jest-chrome": "0.7.2",
+    "prettier": "2.6.2",
+    "typescript": "4.6.4"
+  }
+}

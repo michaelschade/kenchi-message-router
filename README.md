@@ -1,0 +1,1 @@
+Message router is a secure, multilayer message passing layer built with Chrome extensions in mind. See the now [open source Kenchi repository](https://github.com/michaelschade/kenchi) to see how message router was used in practice to build [Kenchi](https://kenchi.com/), a privacy-first Chrome extension built to supercharge support tools.
